@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Toast Notification</title>
+  <title>Toast Notifications</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <button onclick="showToast('success', 'Login Successful!')">Show Success Toast</button>
-  <button onclick="showToast('error', 'Something went wrong!')">Show Error Toast</button>
-  <button onclick="showToast('info', 'New Update Available!')">Show Info Toast</button>
-  <button onclick="showToast('warning', 'Low disk space!')">Show Warning Toast</button>
-
-  <!-- Toast Container -->
-  <div id="toast-container"></div>
-
+     <div class="buttons">
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+     </div>
+      <div id="toastBox">
+        
+      </div>
   <script src="script.js"></script>
 </body>
 </html>
