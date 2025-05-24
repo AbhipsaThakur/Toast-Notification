@@ -18,7 +18,7 @@ This is a simple and stylish Toast Notification system built using HTML, CSS, an
 
 1. **Clone or Download the Project**
 
-git clone https://github.com/yourusername/toast-notifications.git
+git clone https://github.com/AbhipsaThakur/Toast-Notification
 
 2. **Open `index.html` in a browser**
 
