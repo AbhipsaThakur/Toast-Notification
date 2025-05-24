@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toast Notification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="showToast('success', 'Login Successful!')">Show Success Toast</button>
+  <button onclick="showToast('error', 'Something went wrong!')">Show Error Toast</button>
+  <button onclick="showToast('info', 'New Update Available!')">Show Info Toast</button>
+  <button onclick="showToast('warning', 'Low disk space!')">Show Warning Toast</button>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
